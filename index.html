@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Predee — Coming Soon</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#9ca3af}
+    html,body{height:100%;margin:0;font-family:Inter, "Noto Sans SC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
+    body{background:linear-gradient(180deg,var(--bg),#071029);display:flex;align-items:center;justify-content:center;color:#e6eef6}
+    .container{max-width:880px;padding:36px;border-radius:16px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));box-shadow:0 8px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);}
+    .hero{display:flex;gap:28px;align-items:center}
+    .logo{width:120px;height:120px;border-radius:20px;display:flex;align-items:center;justify-content:center;font-size:48px;background:linear-gradient(135deg,#073b4c,#0891b2);box-shadow:0 6px 18px rgba(3,8,20,0.6)}
+    h1{margin:0;font-size:34px}
+    p.lead{margin:6px 0 18px;color:var(--muted);font-size:15px}
+    .explain{background:rgba(255,255,255,0.02);padding:18px;border-radius:12px;color:#cfe8f2}
+    .muted{color:var(--muted);font-size:13px;margin-top:10px}
+    .cta{display:flex;gap:8px;margin-top:16px}
+    input[type="email"]{flex:1;padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit;outline:none}
+    button{padding:10px 14px;border-radius:10px;border:0;background:linear-gradient(90deg,var(--accent),#0ea5a4);color:#022;cursor:pointer;font-weight:600}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    @media (max-width:640px){.hero{flex-direction:column;align-items:flex-start}.logo{width:92px;height:92px;font-size:36px}.container{padding:20px}}
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <section class="hero">
+      <div class="logo">🔮</div>
+      <div>
+        <h1>Predee — 即将上线</h1>
+        <p class="lead">Coming soon — Stay tuned.</p>
+        <div class="explain">
+          <strong>关于 Predee</strong>
+          <p class="muted">Predee是一个中文预测市场平台（Chinese prediction market）。在这里，用户可以对未来事件的结果进行预测、买卖预测份额，并从准确的预测中获益。常见用例包括：政治、经济、科技产品发布、体育赛事等结果预测。</p>
+          <p class="muted">预测市场通过把分散信息聚合到价格中，帮助发现概率与市场共识。我们的目标是为中文用户提供一个简单、安全、透明的预测市场体验。</p>
+        </div>
+        <footer>
+        </footer>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
